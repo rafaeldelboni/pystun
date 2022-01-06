@@ -1,10 +1,9 @@
-from __future__ import print_function
 import argparse
 import logging
 import sys
-
 import stun
 
+logging.basicConfig(level=logging.INFO)
 
 def make_argument_parser():
     parser = argparse.ArgumentParser(
@@ -62,3 +61,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
