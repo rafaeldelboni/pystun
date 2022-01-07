@@ -3,7 +3,7 @@ import logging
 import sys
 import stun
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
 
 def make_argument_parser():
     parser = argparse.ArgumentParser(
